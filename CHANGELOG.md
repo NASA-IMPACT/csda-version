@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.6](https://github.com/NASA-IMPACT/csda-version/compare/v0.2.5...v0.2.6) (2026-04-06)
+
+
+### Bug Fixes
+
+* add owner and repositories inputs ([#36](https://github.com/NASA-IMPACT/csda-version/issues/36)) ([9d4c4e9](https://github.com/NASA-IMPACT/csda-version/commit/9d4c4e93c1ed9e5bce66dc547de7b3379a72b925))
+
 ## [0.2.5](https://github.com/gadomski/csda-version/compare/v0.2.4...v0.2.5) (2026-02-22)
 
 
