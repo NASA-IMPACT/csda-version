@@ -14,6 +14,8 @@ jobs:
         with:
           app-id: ${{ secrets.CSDA_RELEASE_BOT_CLIENT_ID }}
           private-key: ${{ secrets.CSDA_RELEASE_BOT_PRIVATE_KEY }}
+          owner: ${{ github.repository_owner }}
+          repositories: ${{ github.event.repository.name }}
 
       - uses: actions/checkout@v6
         with:
