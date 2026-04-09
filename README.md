@@ -6,22 +6,22 @@ To use with [release-please](https://github.com/googleapis/release-please):
 
 ```yaml
   steps:
-    - uses: actions/checkout@v6
     - name: CSDA Version
       id: csda-version
-      uses: gadomski/csda-version
-    - uses: googleapis/release-please-action@v4
+      uses: NASA-IMPACT/csda-version@<hash-version> # hash-version is recommended for extra security 
+    - uses: googleapis/release-please-action@<hash-version> # hash-version is recommended for extra security
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
         release-type: simple
         release-as: ${{ steps.csda-version.outputs.version }}
 ```
 
+
 > [!IMPORTANT]
 > You must use `release-type` in your Github Action YAML, you cannot use [Manifest Driven](https://github.com/googleapis/release-please/blob/main/docs/manifest-releaser.md) releasing.
 > This is because `release-as` is ignored for manifest-driven releases.
 
-To see this in action, check out https://github.com/NASA-IMPACT/csdap-frontend.
+To see this _in_ action, check out https://github.com/NASA-IMPACT/csdap-frontend/blob/main/.github/workflows/release-please.yml.
 
 ## CSDA version
 
