@@ -34,3 +34,15 @@ A CSDA version is formatted like `vYY.PI.SP-X`, where:
 
 > [!NOTE]
 > While the CSDA `version` _can_ be updated manually (see [example commit](https://github.com/NASA-IMPACT/csda-version/commit/d10da9054f4229fd7c7769066520b14d61ce7c08)), there is [a Github cron job](https://github.com/NASA-IMPACT/csda-version/blob/main/.github/workflows/bump-version.yml) that runs weekly to handle routine [updates](https://github.com/NASA-IMPACT/csda-version/blob/main/src/csda_version/__init__.py).
+
+## Included Commit Prefixes
+
+The following commit prefixes are included in the CHANGELOG:
+
+- **feat:** Features
+- **fix:** Bug Fixes
+- **refactor:** Refactor
+- **chore:** Chores
+- **docs:** Documentation
+
+Commits with other prefixes will not appear in the generated changelog, but will still be included in the release.

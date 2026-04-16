@@ -3,7 +3,14 @@
   "packages": {
     ".": {
       "release-type": "python",
-      "include-component-in-tag": false
+      "include-component-in-tag": false,
+      "changelog-sections": [
+        { "type": "feat", "section": "Features" },
+        { "type": "fix", "section": "Bug Fixes" },
+        { "type": "refactor", "section": "Refactor" },
+        { "type": "chore", "section": "Chores" },
+        { "type": "docs", "section": "Documentation" }
+      ]
     }
   }
 }
