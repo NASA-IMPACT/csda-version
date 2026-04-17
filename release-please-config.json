@@ -9,7 +9,8 @@
         { "type": "fix", "section": "Bug Fixes" },
         { "type": "refactor", "section": "Refactor" },
         { "type": "chore", "section": "Chores" },
-        { "type": "docs", "section": "Documentation" }
+        { "type": "docs", "section": "Documentation" },
+        { "type": "revert", "section": "Revert" }
       ]
     }
   }
