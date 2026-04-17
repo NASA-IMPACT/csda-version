@@ -44,5 +44,6 @@ The following commit prefixes are included in the CHANGELOG:
 - **refactor:** Refactor
 - **chore:** Chores
 - **docs:** Documentation
+- **revert:** Revert
 
 Commits with other prefixes will not appear in the generated changelog, but will still be included in the release.
