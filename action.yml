@@ -8,6 +8,9 @@ outputs:
   version:
     description: The next CSDA version
     value: ${{ steps.calculate.outputs.version }}
+  release-please-config:
+    description: Path to the release-please config file
+    value: ${{ steps.release-please-config.outputs.config-file }}
 
 runs:
   using: composite
@@ -38,3 +41,8 @@ runs:
       run: |
         NEXT_VERSION=$(csda-version next-version "${{ steps.csda-version.outputs.version }}" "${{ steps.last-tag.outputs.tag }}")
         echo "version=$NEXT_VERSION" >> "$GITHUB_OUTPUT"
+    - name: release-please config
+      id: release-please-config
+      shell: bash
+      run: |
+        echo "config-file=release-please-config.json" >> "$GITHUB_OUTPUT"
