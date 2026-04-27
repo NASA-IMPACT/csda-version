@@ -14,6 +14,7 @@ To use with [release-please](https://github.com/googleapis/release-please):
         token: ${{ secrets.GITHUB_TOKEN }}
         release-type: simple
         release-as: ${{ steps.csda-version.outputs.version }}
+        config-file: ${{ steps.csda-version.outputs.release-please-config }}
 ```
 
 
