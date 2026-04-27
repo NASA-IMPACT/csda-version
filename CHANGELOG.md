@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.8](https://github.com/NASA-IMPACT/csda-version/compare/v0.2.7...v0.2.8) (2026-04-27)
+
+
+### Chores
+
+* add release please config action input ([#45](https://github.com/NASA-IMPACT/csda-version/issues/45)) ([5eabade](https://github.com/NASA-IMPACT/csda-version/commit/5eabade3c3c23138bdd58bec93389b93cba43d9d))
+
 ## [0.2.7](https://github.com/NASA-IMPACT/csda-version/compare/v0.2.6...v0.2.7) (2026-04-20)
 
 
