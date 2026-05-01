@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.9](https://github.com/NASA-IMPACT/csda-version/compare/v0.2.8...v0.2.9) (2026-05-01)
+
+
+### Bug Fixes
+
+* reference to correct txt file ([#49](https://github.com/NASA-IMPACT/csda-version/issues/49)) ([d310127](https://github.com/NASA-IMPACT/csda-version/commit/d310127e1f19be55353ea209f85814a590658b4a))
+
 ## [0.2.8](https://github.com/NASA-IMPACT/csda-version/compare/v0.2.7...v0.2.8) (2026-04-27)
 
 
