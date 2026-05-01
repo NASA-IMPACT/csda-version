@@ -34,7 +34,7 @@ runs:
       shell: bash
       id: csda-version
       run: |
-        CSDA_VERSION=$(curl -s https://raw.githubusercontent.com/gadomski/csda-version/refs/heads/main/csda-version.txt | tr -d '[:space:]')
+        CSDA_VERSION=$(curl -s https://raw.githubusercontent.com/NASA-IMPACT/csda-version/refs/heads/main/csda-version.txt | tr -d '[:space:]')
         echo "version=$CSDA_VERSION" >> "$GITHUB_OUTPUT"
     - id: calculate
       shell: bash
