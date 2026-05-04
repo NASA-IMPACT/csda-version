@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.10](https://github.com/NASA-IMPACT/csda-version/compare/v0.2.9...v0.2.10) (2026-05-04)
+
+
+### Chores
+
+* bump version to 26.3.3 ([#51](https://github.com/NASA-IMPACT/csda-version/issues/51)) ([fc0f004](https://github.com/NASA-IMPACT/csda-version/commit/fc0f004ef680e0da1ebf8423749b34c36d78f7b6))
+
 ## [0.2.9](https://github.com/NASA-IMPACT/csda-version/compare/v0.2.8...v0.2.9) (2026-05-01)
 
 
