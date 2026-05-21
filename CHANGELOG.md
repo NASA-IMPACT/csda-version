@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.11](https://github.com/NASA-IMPACT/csda-version/compare/v0.2.10...v0.2.11) (2026-05-20)
+
+
+### Chores
+
+* update dependabot to use uv support ([#53](https://github.com/NASA-IMPACT/csda-version/issues/53)) ([7acfb24](https://github.com/NASA-IMPACT/csda-version/commit/7acfb245e90dbcf29edf1167a3d2cc1bbf0ca27e))
+
 ## [0.2.10](https://github.com/NASA-IMPACT/csda-version/compare/v0.2.9...v0.2.10) (2026-05-18)
 
 
