@@ -56,7 +56,7 @@ For other standard commit types (such as `refactor`, `chore`, `docs`, or `revert
 
 ```sh
 git commit -m "fix(chore): update dependencies"
-git commit -m "feat(docs): correct typo in README"
+git commit -m "feat(docs): add new documentation"
 git commit -m "feat(chore)!: breaking change in dependencies"
 ```
 
