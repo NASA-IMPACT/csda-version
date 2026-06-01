@@ -1,18 +1,18 @@
 [project]
 name = "csda-version"
-version = "0.2.9"
+version = "0.3.0"
 description = "Calculate the next csda-version"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
-    "click>=8.3.1",
-    "pydantic>=2.12.5",
+    "click>=8.4.1",
+    "pydantic>=2.13.4",
 ]
 
 [dependency-groups]
 dev = [
-    "pytest>=9.0.2",
-    "ruff>=0.14.13",
+    "ruff>=0.15.14",
+    "pytest>=9.0.3",
 ]
 
 [project.scripts]
