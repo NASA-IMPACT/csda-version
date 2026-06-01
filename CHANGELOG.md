@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.0](https://github.com/NASA-IMPACT/csda-version/compare/v0.3.0...v0.4.0) (2026-06-01)
+
+
+### Features
+
+* **chore:** add troubleshooting guide ([#64](https://github.com/NASA-IMPACT/csda-version/issues/64)) ([85fbc36](https://github.com/NASA-IMPACT/csda-version/commit/85fbc36b492f449af91149f3029df67a23cf494d))
+
 ## [0.3.0](https://github.com/NASA-IMPACT/csda-version/compare/v0.2.11...v0.3.0) (2026-06-01)
 
 
