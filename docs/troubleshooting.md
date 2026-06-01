@@ -1,6 +1,10 @@
 # Troubleshooting Guide
 
-#### Required Workflow Permissions
+This guide applies to any CSDA repository that uses the release-please action. Each repo must include a `.github/workflows/release-please.yml` workflow and grant the CSDA release app repository access. Use this guide when a release fails, versions become stale, workflows report permission errors or release-please ignores configuration changes.
+
+For guidance on the overall release and deployment process, see the CSDA project wiki: [Code Releases (Deployments)](https://github.com/NASA-IMPACT/csda-project/wiki/Code-Releases-(Deployments)).
+
+## Required Workflow Permissions
 
 Ensure your `.github/workflows/release-please.yml` file includes the following permissions:
 
@@ -17,7 +21,7 @@ These permissions are required for release-please to:
 
 #### Verify CSDA Release App Access
 
-- Visit the [CSDA Release App installations page](https://github.com/apps/csda-release-app/installations/105597643)
+- Visit the [CSDA Release App installations page](https://github.com/apps/csda-release-app) and follow the authentication steps to `Configure`
 - Verify your repository is listed under `Repository access`
 - If your repository is missing select the one you would like to add
 
