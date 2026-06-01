@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.3.0](https://github.com/NASA-IMPACT/csda-version/compare/v0.2.11...v0.3.0) (2026-06-01)
+
+
+### Features
+
+* **docs:** add commit message convention documentation ([#63](https://github.com/NASA-IMPACT/csda-version/issues/63)) ([8f821cc](https://github.com/NASA-IMPACT/csda-version/commit/8f821cc7daed53f5018dad9dff629455671a1959))
+
+
+### Chores
+
+* bump version to 26.3.5 ([#66](https://github.com/NASA-IMPACT/csda-version/issues/66)) ([dec7f93](https://github.com/NASA-IMPACT/csda-version/commit/dec7f93450f9c15773a70bd76a6fa90b4805813c))
+
 ## [0.2.11](https://github.com/NASA-IMPACT/csda-version/compare/v0.2.10...v0.2.11) (2026-05-20)
 
 
