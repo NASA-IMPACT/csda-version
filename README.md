@@ -36,15 +36,28 @@ A CSDA version is formatted like `vYY.PI.SP-X`, where:
 > [!NOTE]
 > While the CSDA `version` _can_ be updated manually (see [example commit](https://github.com/NASA-IMPACT/csda-version/commit/d10da9054f4229fd7c7769066520b14d61ce7c08)), there is [a Github cron job](https://github.com/NASA-IMPACT/csda-version/blob/main/.github/workflows/bump-version.yml) that runs weekly to handle routine [updates](https://github.com/NASA-IMPACT/csda-version/blob/main/src/csda_version/__init__.py).
 
-## Included Commit Prefixes
+### Commit Messages
 
-The following commit prefixes are included in the CHANGELOG:
+Release Please only recognizes `feat` and `fix` commit prefixes when generating automated releases.
 
-- **feat:** Features
-- **fix:** Bug Fixes
-- **refactor:** Refactor
-- **chore:** Chores
-- **docs:** Documentation
-- **revert:** Revert
+#### Examples
+```sh
+git commit -m "feat: add user authentication"
+git commit -m "fix: merge conflicts"
+```
 
-Commits with other prefixes will not appear in the generated changelog, but will still be included in the release.
+#### Breaking Changes
+
+Appending an exclamation mark (`!`) to the prefix will add a `BREAKING CHANGES` header to the changelog. Use this sparingly and only for changes that introduce backward incompatibility. 
+
+#### Common Prefixes
+
+For other standard commit types (such as `refactor`, `chore`, `docs`, or `revert`) pass them as a scope to `feat` or `fix`. If you need to trigger a release use:
+
+```sh
+git commit -m "fix(chore): update dependencies"
+git commit -m "feat(docs): add new documentation"
+git commit -m "feat(chore)!: breaking change in dependencies"
+```
+
+*Note: Commits without `feat` or `fix` prefixes will not trigger a new release, but they will still appear in the changelog.*
