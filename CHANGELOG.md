@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.4.3](https://github.com/NASA-IMPACT/csda-version/compare/v0.4.2...v0.4.3) (2026-07-16)
+
+
+### Chores
+
+* bump version to 26.4.0 ([#88](https://github.com/NASA-IMPACT/csda-version/issues/88)) ([32f4ca9](https://github.com/NASA-IMPACT/csda-version/commit/32f4ca943bf97cccc0f90533c1dc9aecad587ce8))
+* remove CODEOWNERS ([#87](https://github.com/NASA-IMPACT/csda-version/issues/87)) ([42f93f2](https://github.com/NASA-IMPACT/csda-version/commit/42f93f2d074660044942cc4e7109776dd2bd7c71))
+* update dependabot configuration ([#83](https://github.com/NASA-IMPACT/csda-version/issues/83)) ([436b41b](https://github.com/NASA-IMPACT/csda-version/commit/436b41bc2e0e6c5ed36ce979b8cbe7b75bca4b1a))
+
 ## [0.4.2](https://github.com/NASA-IMPACT/csda-version/compare/v0.4.1...v0.4.2) (2026-06-29)
 
 
